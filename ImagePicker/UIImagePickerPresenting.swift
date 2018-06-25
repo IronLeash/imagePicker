@@ -1,11 +1,8 @@
 //
 //  ImagePickerPresenting.swift
-//  Tanktaler
 //
 //  Created by Ilker Baltaci on 11.06.18.
-//  Copyright © 2018 Thinxnet. All rights reserved.
 //
-//  Localized on 12.06,2018
 
 import Foundation
 import AVFoundation
