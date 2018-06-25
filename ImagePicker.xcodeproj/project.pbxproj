@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526406CE20E0F3C8001D223A /* UIImagePickerPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526406CD20E0F3C8001D223A /* UIImagePickerPresenting.swift */; };
+		526406D020E114DB001D223A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526406CF20E114DB001D223A /* ImageViewController.swift */; };
+		526406D220E11568001D223A /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526406D120E11568001D223A /* String+Localization.swift */; };
 		5267370820DD3BFB00404B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267370720DD3BFB00404B8C /* AppDelegate.swift */; };
 		5267370A20DD3BFB00404B8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267370920DD3BFB00404B8C /* ViewController.swift */; };
 		5267370D20DD3BFB00404B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5267370B20DD3BFB00404B8C /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		526406CD20E0F3C8001D223A /* UIImagePickerPresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerPresenting.swift; sourceTree = "<group>"; };
+		526406CF20E114DB001D223A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		526406D120E11568001D223A /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		5267370420DD3BFB00404B8C /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5267370720DD3BFB00404B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5267370920DD3BFB00404B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				5267370E20DD3BFD00404B8C /* Assets.xcassets */,
 				5267371020DD3BFD00404B8C /* LaunchScreen.storyboard */,
 				5267371320DD3BFD00404B8C /* Info.plist */,
+				526406CD20E0F3C8001D223A /* UIImagePickerPresenting.swift */,
+				526406CF20E114DB001D223A /* ImageViewController.swift */,
+				526406D120E11568001D223A /* String+Localization.swift */,
 			);
 			path = ImagePicker;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526406CE20E0F3C8001D223A /* UIImagePickerPresenting.swift in Sources */,
 				5267370A20DD3BFB00404B8C /* ViewController.swift in Sources */,
+				526406D020E114DB001D223A /* ImageViewController.swift in Sources */,
 				5267370820DD3BFB00404B8C /* AppDelegate.swift in Sources */,
+				526406D220E11568001D223A /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,12 +443,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VG392BRN;
 				INFOPLIST_FILE = ImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = thinxnet.ImagePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilkerbaltaci.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +461,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VG392BRN;
 				INFOPLIST_FILE = ImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = thinxnet.ImagePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilkerbaltaci.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
